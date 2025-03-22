@@ -1,0 +1,12 @@
+.full-row{
+    @apply container mx-auto px-5;
+}
+
+.link {
+    @apply font-medium text-accent duration-300 hover:text-accent-darker;
+}
+
+.button {
+    @apply rounded-lg border-2 border-transparent px-5 py-2.5 font-medium bg-background-darker cursor-pointer duration-300;
+    @apply hover:border-accent;
+}

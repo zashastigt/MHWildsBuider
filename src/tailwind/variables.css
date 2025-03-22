@@ -1,0 +1,11 @@
+@theme {
+    --color-background: #242423;
+    --color-background-darker: #1a1a1a;
+    --color-accent: #646cff;
+    --color-accent-darker: #535bf2;
+
+    --drop-shadow-vite: 0 0 32px #646cffaa;
+    --drop-shadow-vue: 0 0 32px #42b883aa;
+
+    --font-opensans: "Open Sans Variable", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
