@@ -1,7 +1,7 @@
-﻿import type {GreatSword} from "../interfaces/weapons.ts";
+﻿import type {LongSword} from "../interfaces/weapons.ts";
 
-export const greatSwords: GreatSword = {
-    "Esperanza Blade": {
+export const longSword: LongSword = {
+    "Esperanza Edge": {
         rawAttack: 210,
         affinity: 0,
         element: null,
@@ -13,20 +13,20 @@ export const greatSwords: GreatSword = {
         defense: 0,
         skills: [
             {
-                name: "Protective Polish",
+                name: "Critical Eye",
                 level: 2
             },
             {
-                name: "Focus",
+                name: "Speed Sharpening",
                 level: 2
             }
         ]
     },
-    "Whitefire Rathguard": {
+    "Wyvern Blade Lily": {
         rawAttack: 210,
         affinity: 15,
         element: "fire",
-        elementalAttack: 400,
+        elementalAttack: 300,
         status: null,
         statusAttack: null,
         sharpness: "white",
@@ -38,12 +38,12 @@ export const greatSwords: GreatSword = {
                 level: 1
             },
             {
-                name: "'Master's Touch",
+                name: "Master's Touch",
                 level: 1
             }
         ]
     },
-    "Ravager Blade": {
+    "Keen Edge": {
         rawAttack: 220,
         affinity: 0,
         element: null,
@@ -55,16 +55,33 @@ export const greatSwords: GreatSword = {
         defense: 0,
         skills: [
             {
-                name: "Critcal Draw",
+                name: "Critical Draw",
                 level: 3
             }
         ]
     },
-    "Precipice Metallam": {
-        rawAttack: 210,
+    "Rompo Mytoxin": {
+        rawAttack: 220,
+        affinity: 0,
+        element: null,
+        elementalAttack: null,
+        status: "poison",
+        statusAttack: 250,
+        sharpness: "white",
+        slots: [3, 2, 1],
+        defense: 0,
+        skills: [
+            {
+                name: "Power Prolonger",
+                level: 3
+            }
+        ]
+    },
+    "Windclaw Kiribami": {
+        rawAttack: 220,
         affinity: 0,
         element: "ice",
-        elementalAttack: 600,
+        elementalAttack: 300,
         status: null,
         statusAttack: null,
         sharpness: "white",
@@ -74,14 +91,18 @@ export const greatSwords: GreatSword = {
             {
                 name: "Focus",
                 level: 3
+            },
+            {
+                name: "Airborne",
+                level: 1
             }
         ]
     },
-    "Firetrail Bladedell": {
-        rawAttack: 240,
+    "Firetrail Ferrocere": {
+        rawAttack: 230,
         affinity: 5,
         element: "fire",
-        elementalAttack: 300,
+        elementalAttack: 200,
         status: null,
         statusAttack: null,
         sharpness: "blue",
@@ -94,24 +115,28 @@ export const greatSwords: GreatSword = {
             }
         ]
     },
-    "Destrucive Torpor": {
-        rawAttack: 200,
+    "Tonitrus Clairblade": {
+        rawAttack: 220,
         affinity: 0,
-        element: null,
-        elementalAttack: null,
-        status: "paralysis",
-        statusAttack: 500,
-        sharpness: "blue",
-        slots: [3, 3, 1],
+        element: "thunder",
+        elementalAttack: 250,
+        status: null,
+        statusAttack: null,
+        sharpness: "white",
+        slots: [3, 2, 1],
         defense: 0,
         skills: [
             {
-                name: "Speed Sharpening",
+                name: "Focus",
+                level: 2
+            },
+            {
+                name: "Punishing Draw",
                 level: 2
             }
         ]
     },
-    "Bone Slasher": {
+    "Hard Bone Shotel": {
         rawAttack: 230,
         affinity: 0,
         element: null,
@@ -132,68 +157,26 @@ export const greatSwords: GreatSword = {
             }
         ]
     },
-    "Abaddonian Krake": {
-        rawAttack: 230,
+    "Khlunda-of-the-Waves": {
+        rawAttack: 240,
         affinity: -15,
-        element: "fire",
-        elementalAttack: 400,
-        status: null,
-        statusAttack: null,
-        sharpness: "white",
-        slots: [3, 2, 1],
-        defense: 0,
-        skills: [
-            {
-                name: "Protective Polish",
-                level: 3
-            },
-            {
-                name: "Speed Sharpening",
-                level: 2
-            }
-        ]
-    },
-    "Immolator Blade": {
-        rawAttack: 200,
-        affinity: 15,
-        element: null,
-        elementalAttack: null,
-        status: "sleep",
-        statusAttack: 400,
-        sharpness: "white",
-        slots: [3, 2, 1],
-        defense: 0,
-        skills: [
-            {
-                name: "Offensive Guard",
-                level: 2
-            },
-            {
-                name: "Guard",
-                level: 1
-            }
-        ]
-    },
-    "Prinvrilo's Dessolution": {
-        rawAttack: 220,
-        affinity: 0,
         element: "water",
-        elementalAttack: 300,
+        elementalAttack: 350,
         status: null,
         statusAttack: null,
-        sharpness: "white",
+        sharpness: "blue",
         slots: [3, 2, 1],
         defense: 0,
         skills: [
             {
-                name: "Critical Draw",
+                name: "Power Prolonger",
                 level: 3
             }
         ]
     },
-    "Fellslayer Dangeom": {
-        rawAttack: 1152,
-        affinity: -10,
+    "Fatecleaver Kimkemush": {
+        rawAttack: 240,
+        affinity: -5,
         element: null,
         elementalAttack: null,
         status: null,
@@ -204,49 +187,15 @@ export const greatSwords: GreatSword = {
         skills: [
             {
                 name: "Punishing Draw",
-                level: 3
-            }
-        ]
-    },
-    "G. Stalwart Lamorak": {
-        rawAttack: 240,
-        affinity: -10,
-        element: "dragon",
-        elementalAttack: 300,
-        status: null,
-        statusAttack: null,
-        sharpness: "blue",
-        slots: [3, 2, 1],
-        defense: 0,
-        skills: [
-            {
-                name: "Focus",
                 level: 2
             }
         ]
     },
-    "Stalwart Lamorak": {
-        rawAttack: 220,
-        affinity: 0,
+    "G. Righteous Lancelot": {
+        rawAttack: 240,
+        affinity: -10,
         element: "dragon",
-        elementalAttack: 500,
-        status: null,
-        statusAttack: null,
-        sharpness: "white",
-        slots: [3, 2, 1],
-        defense: 0,
-        skills: [
-            {
-                name: "Focus",
-                level: 3
-            }
-        ]
-    },
-    "Grimslayer Urgeon": {
-        rawAttack: 250,
-        affinity: -20,
-        element: null,
-        elementalAttack: null,
+        elementalAttack: 200,
         status: null,
         statusAttack: null,
         sharpness: "blue",
@@ -259,52 +208,48 @@ export const greatSwords: GreatSword = {
             }
         ]
     },
-    "Rooster Decapitator": {
+    "Righteous Lancelot": {
         rawAttack: 220,
         affinity: 0,
-        element: "fire",
-        elementalAttack: 600,
+        element: "dragon",
+        elementalAttack: 350,
         status: null,
         statusAttack: null,
-        sharpness: "blue",
+        sharpness: "white",
         slots: [3, 2, 1],
         defense: 0,
         skills: [
-            {
-                name: "Charge Master",
-                level: 2
-            },
             {
                 name: "Focus",
-                level: 2
-            }
-        ]
-    },
-    "Fulgurcleaver Guardiana": {
-        rawAttack: 210,
-        affinity: 15,
-        element: 'thunder',
-        elementalAttack: 500,
-        status: null,
-        statusAttack: null,
-        sharpness: "blue",
-        slots: [3, 2, 1],
-        defense: 0,
-        skills: [
-            {
-                name: "Critical Element",
                 level: 3
             }
         ]
     },
-    "Poison King": {
-        rawAttack: 230,
-        affinity: 0,
+    "Gravecleaver Urkemush": {
+        rawAttack: 250,
+        affinity: -15,
         element: null,
         elementalAttack: null,
-        status: "poison",
-        statusAttack: 500,
+        status: null,
+        statusAttack: null,
         sharpness: "blue",
+        slots: [3, 2, 1],
+        defense: 0,
+        skills: [
+            {
+                name: "Power Prolonger",
+                level: 2
+            }
+        ]
+    },
+    "Lala Ornithocton": {
+        rawAttack: 200,
+        affinity: 15,
+        element: null,
+        elementalAttack: null,
+        status: "paralysis",
+        statusAttack: 250,
+        sharpness: "white",
         slots: [3, 2, 1],
         defense: 0,
         skills: [
@@ -313,18 +258,35 @@ export const greatSwords: GreatSword = {
                 level: 2
             },
             {
-                name: "Punishing Draw",
+                name: "Critical Status",
+                level: 1
+            }
+        ]
+    },
+    "Blood Scream": {
+        rawAttack: 200,
+        affinity: 15,
+        element: null,
+        elementalAttack: null,
+        status: "sleep",
+        statusAttack: 250,
+        sharpness: "white",
+        slots: [3, 2, 1],
+        defense: 0,
+        skills: [
+            {
+                name: "Power Prolonger",
                 level: 2
             }
         ]
     },
-    "Sieglinde": {
+    "Wyvern Blade Holly": {
         rawAttack: 210,
         affinity: 15,
         element: null,
         elementalAttack: null,
         status: "poison",
-        statusAttack: 300,
+        statusAttack: 200,
         sharpness: "white",
         slots: [3, 2, 1],
         defense: 0,
@@ -339,11 +301,11 @@ export const greatSwords: GreatSword = {
             }
         ]
     },
-    "Rathalos Firesword": {
+    "Wyvern Blade Maple": {
         rawAttack: 200,
         affinity: 10,
         element: "fire",
-        elementalAttack: 500,
+        elementalAttack: 350,
         status: null,
         statusAttack: null,
         sharpness: "white",
@@ -352,15 +314,15 @@ export const greatSwords: GreatSword = {
         skills: [
             {
                 name: "Critical Boost",
-                level: 3
+                level: 2
             }
         ]
     },
-    "Dusterstolz": {
+    "Stahlrecht": {
         rawAttack: 210,
         affinity: 20,
         element: "dragon",
-        elementalAttack: 400,
+        elementalAttack: 300,
         status: null,
         statusAttack: null,
         sharpness: "white",
@@ -373,32 +335,11 @@ export const greatSwords: GreatSword = {
             }
         ]
     },
-    "Freezer Speartuna": {
-        rawAttack: 220,
-        affinity: 0,
-        element: "ice",
-        elementalAttack: 700,
-        status: null,
-        statusAttack: null,
-        sharpness: "blue",
-        slots: [3, 2, 0],
-        defense: 0,
-        skills: [
-            {
-                name: "Punishing Draw",
-                level: 3
-            },
-            {
-                name: "Slugger",
-                level: 2
-            }
-        ]
-    },
-    "Giant Jawblade": {
-        rawAttack: 240,
-        affinity: 0,
-        element: null,
-        elementalAttack: null,
+    "Fulgurblade Guardiana": {
+        rawAttack: 210,
+        affinity: 20,
+        element: "thunder",
+        elementalAttack: 350,
         status: null,
         statusAttack: null,
         sharpness: "blue",
@@ -406,13 +347,26 @@ export const greatSwords: GreatSword = {
         defense: 0,
         skills: [
             {
-                name: "Protective Polish",
-                level: 2
-            },
-            {
-                name: "Focus",
-                level: 2
+                name: "Critical Element",
+                level: 3
             }
         ]
     },
+    "Blangongaberge": {
+        rawAttack: 230,
+        affinity: -10,
+        element: "ice",
+        elementalAttack: 200,
+        status: null,
+        statusAttack: null,
+        sharpness: "white",
+        slots: [3, 2, 1],
+        defense: 0,
+        skills: [
+            {
+                name: "Critical Draw",
+                level: 3
+            }
+        ]
+    }
 }
