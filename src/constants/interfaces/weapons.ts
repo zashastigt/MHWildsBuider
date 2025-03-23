@@ -10,6 +10,10 @@ export interface SwordShield {
     [key: string]: BasicWeapon
 }
 
+export interface DualBlades {
+    [key: string]: BasicWeapon
+}
+
 interface BasicWeapon {
     rawAttack: number,
     affinity: number,
